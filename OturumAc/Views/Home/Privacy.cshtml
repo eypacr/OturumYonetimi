@@ -1,0 +1,94 @@
+﻿@{
+    ViewData["Title"] = "İletişim";
+}
+
+<div class="text-center my-5">
+    <div class="lead">Bize Ulaşın</div>
+    <div class="contact-info">
+        <div class="contact-item">
+            <i class="fa fa-phone"></i>
+            <p>ALO 47 Bilgi Ve Destek Hattı</p>
+        </div>
+
+        <div class="contact-item">
+            <i class="fa fa-address-book"></i>
+            <p>Bilgi Teknolojileri ve İletişim Kurumu</p>
+        </div>
+
+        <div class="contact-item">
+            <i class="fa fa-envelope"></i>
+            <p>destek@bigidestekhatti.gov.tr</p>
+        </div>
+    </div>
+</div>
+<style>
+    /* General styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .my-5 {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .border-bottom {
+        border-bottom: 2px solid #000;
+        padding-bottom: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .lead {
+        font-size: 2rem; /* Larger font size */
+        color: #333;
+        margin-bottom: 1rem;
+    }
+
+    /* Contact info styles */
+    .contact-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .contact-item {
+        text-align: center;
+        margin: 1.5rem; /* Increased margin for spacing */
+        padding: 2rem; /* Increased padding for larger clickable area */
+        border-radius: 15px; /* Slightly rounded corners */
+        background-color: #fff;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+        width: 300px; /* Fixed width for consistent layout */
+    }
+
+        .contact-item:hover {
+            transform: scale(1.05);
+            background-color: #e67e22; /* Darker orange on hover */
+            color: #fff;
+        }
+
+        .contact-item i {
+            font-size: 3.5rem; /* Larger icon size */
+            padding: 1.5rem; /* Increased padding for icons */
+            border-radius: 50%;
+            background-color: #f39c12; /* Default background color */
+            color: #fff;
+            margin-bottom: 1rem;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .contact-item p {
+            margin: 0;
+            color: #555;
+            font-size: 1.2rem; /* Larger font size for text */
+        }
+</style>
