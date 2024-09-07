@@ -17,9 +17,6 @@ namespace Repositories
         {
             base.OnModelCreating(modelBuilder);
 
-            // modelBuilder.ApplyConfiguration(new ProductConfig());
-            // modelBuilder.ApplyConfiguration(new CategoryConfig());
-
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
     }
